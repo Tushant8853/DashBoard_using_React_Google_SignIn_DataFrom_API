@@ -1,0 +1,68 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(60, 96, 168);
+    padding: 30px;
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+  
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Use viewport height to cover the whole page */
+    width: 100%; /* Set width to cover the entire width of the page */
+}
+  
+.menu-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Adjust the height as needed */
+    width: 90%; /* Adjust the width as needed */
+}
+  
+.menu-heading {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+  
+.menu-options {
+    list-style-type: none;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Adjust the width as needed */
+    height: 100%; /* Adjust the height as needed */
+}
+  
+.menu-options li {
+    margin-bottom: 30px;
+    width: 100%; /* Adjust the width as needed */
+    margin-left: 50px;
+}
+  
+
+@media (max-width: 768px) {
+    .menu {
+      font-size: 18px;
+      padding: 10px;
+    }
+    
+    .menu-options {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .menu-options li {
+      margin-bottom: 20px;
+      width: calc(50% - 10px);
+    }
+}
+  

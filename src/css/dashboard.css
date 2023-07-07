@@ -1,0 +1,25 @@
+.Main_container {
+    display: flex;
+  }
+  
+  .left-container {
+    flex: 1;
+  }
+  
+  .right-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 768px) {
+    .Main_container {
+      flex-direction: column;
+    }
+  
+    .left-container,
+    .right-container {
+      flex: 1;
+    }
+  }
+  
