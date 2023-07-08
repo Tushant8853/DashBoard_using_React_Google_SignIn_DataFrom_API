@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/DashBoard_using_React_Google_SignIn_DataFrom_API/static/css/main.36f9a94a.css",
+    "main.js": "/DashBoard_using_React_Google_SignIn_DataFrom_API/static/js/main.e0d578ee.js",
+    "index.html": "/DashBoard_using_React_Google_SignIn_DataFrom_API/index.html",
+    "main.36f9a94a.css.map": "/DashBoard_using_React_Google_SignIn_DataFrom_API/static/css/main.36f9a94a.css.map",
+    "main.e0d578ee.js.map": "/DashBoard_using_React_Google_SignIn_DataFrom_API/static/js/main.e0d578ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36f9a94a.css",
+    "static/js/main.e0d578ee.js"
+  ]
+}
